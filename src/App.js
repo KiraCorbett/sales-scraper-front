@@ -1,9 +1,16 @@
+import { useState } from 'react';
+import Login from './Login';
+import ScraperForm from './ScaperForm';
 import './App.css';
 
 function App() {
-  return (
-    <div>{'Hello World :)'}</div>
-  );
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const loginHandler = () => {
+    setIsLoggedIn(true);
+  };
+
+  return <>{isLoggedIn ? <ScraperForm /> : <Login onLogin={loginHandler} />}</>;
 }
 
 export default App;
