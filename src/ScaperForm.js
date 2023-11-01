@@ -6,6 +6,8 @@ const ScraperForm = () => {
 
   return (
     <form onSubmit={submitHandler}>
+      <label for="url">URL Link</label>
+      <input type="text" name="url"></input>
       <button type='submit'>Submit</button>
     </form>
   );
