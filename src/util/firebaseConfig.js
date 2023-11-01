@@ -1,4 +1,4 @@
-export default firebaseConfig = {
+export const firebaseConfig = {
   apiKey: 'AIzaSyDRgVEFA_sEuqRcupZ3YHw6meLjYHdsDaA',
   authDomain: 'sales-scraper-8a0c6.firebaseapp.com',
   projectId: 'sales-scraper-8a0c6',

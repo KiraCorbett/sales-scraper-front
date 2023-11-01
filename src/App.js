@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { initializeApp } from 'firebase/app';
-import firebaseConfig from './util/firebaseConfig';
+import { firebaseConfig } from './util/firebaseConfig';
 import Login from './Login';
 import ScraperForm from './ScaperForm';
 import './App.css';
