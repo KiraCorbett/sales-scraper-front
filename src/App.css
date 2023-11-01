@@ -1,3 +1,30 @@
+/* Scraper Form CSS */
+.scraper-div {
+  height: 40em;
+  position: relative;
+}
+
+.scraper-form {
+  color: black;
+  position: absolute;               
+  top: 50%;  
+  left: 38%;                       
+}
+
+.scraper-form label {
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.scraper-form input {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.scraper-form button {
+  padding: 5px;
+}
+
 .login-form {
   display: flex;
   flex-direction: column;
